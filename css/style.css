@@ -1,0 +1,120 @@
+		@font-face {
+			font-family: "OpenSans Light";
+			src: url("fonts/OpenSans-Light.ttf");
+		}
+		body { font-family: 'OpenSans Light', Arial, sans-serif; }
+		.body { max-width: 1600px; display: block; margin: auto; background-color: white }
+		.backgroundHeader { background-color: #23261e; height: 70px; border-top: 10px solid #7cb71b; width: 100%; position: absolute; top: 0px; z-index: -1; }
+		.sectionTitle { margin-top: 25px; border-bottom: 2px solid #7cb71b; padding: 5px 5px 0px 8px; font-size: 1.3em; }
+		.sectionTitle2 { font-weight: bold; margin: 25px 0px 10px; border-bottom: 2px solid #23261e; padding: 5px 5px 0px 8px; font-size: 1.3em; }
+		.navbar-default { background-color: white; border-radius: 0px; padding: 0px 40px;}
+		.navbar-default .navbar-nav > .active > a { background-color: #ededed; border-bottom: 3px solid #7cb71b }
+		.navbar-default .navbar-nav > li > a:hover { background-color: #ededed;}
+		#carousel1 .carousel-control.left {
+			background: rgba(92,92,92,0.19);
+			background: -moz-linear-gradient(left, rgba(92,92,92,0.19) 0%, rgba(92,92,92,0.18) 0%, rgba(255,255,255,0.04) 78%, rgba(255,255,255,0) 100%);
+			background: -webkit-gradient(left top, right top, color-stop(0%, rgba(92,92,92,0.19)), color-stop(0%, rgba(92,92,92,0.18)), color-stop(78%, rgba(255,255,255,0.04)), color-stop(100%, rgba(255,255,255,0)));
+			background: -webkit-linear-gradient(left, rgba(92,92,92,0.19) 0%, rgba(92,92,92,0.18) 0%, rgba(255,255,255,0.04) 78%, rgba(255,255,255,0) 100%);
+			background: -o-linear-gradient(left, rgba(92,92,92,0.19) 0%, rgba(92,92,92,0.18) 0%, rgba(255,255,255,0.04) 78%, rgba(255,255,255,0) 100%);
+			background: -ms-linear-gradient(left, rgba(92,92,92,0.19) 0%, rgba(92,92,92,0.18) 0%, rgba(255,255,255,0.04) 78%, rgba(255,255,255,0) 100%);
+			background: linear-gradient(to right, rgba(92,92,92,0.19) 0%, rgba(92,92,92,0.18) 0%, rgba(255,255,255,0.04) 78%, rgba(255,255,255,0) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c5c5c', endColorstr='#ffffff', GradientType=1 );
+		}
+		#carousel1 .carousel-control.right {
+			background: rgba(255,255,255,0);
+			background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.04) 22%, rgba(92,92,92,0.18) 100%);
+			background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(22%, rgba(255,255,255,0.04)), color-stop(100%, rgba(92,92,92,0.18)));
+			background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.04) 22%, rgba(92,92,92,0.18) 100%);
+			background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.04) 22%, rgba(92,92,92,0.18) 100%);
+			background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.04) 22%, rgba(92,92,92,0.18) 100%);
+			background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.04) 22%, rgba(92,92,92,0.18) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#5c5c5c', GradientType=1 );
+		}
+		#carousel1 .carousel-control.left:hover {
+			background: rgba(92,92,92,0.19);
+			background: -moz-linear-gradient(left, rgba(92,92,92,0.19) 0%, rgba(92,92,92,0.18) 0%, rgba(255,255,255,0.1) 47%, rgba(255,255,255,0) 100%);
+			background: -webkit-gradient(left top, right top, color-stop(0%, rgba(92,92,92,0.19)), color-stop(0%, rgba(92,92,92,0.18)), color-stop(47%, rgba(255,255,255,0.1)), color-stop(100%, rgba(255,255,255,0)));
+			background: -webkit-linear-gradient(left, rgba(92,92,92,0.19) 0%, rgba(92,92,92,0.18) 0%, rgba(255,255,255,0.1) 47%, rgba(255,255,255,0) 100%);
+			background: -o-linear-gradient(left, rgba(92,92,92,0.19) 0%, rgba(92,92,92,0.18) 0%, rgba(255,255,255,0.1) 47%, rgba(255,255,255,0) 100%);
+			background: -ms-linear-gradient(left, rgba(92,92,92,0.19) 0%, rgba(92,92,92,0.18) 0%, rgba(255,255,255,0.1) 47%, rgba(255,255,255,0) 100%);
+			background: linear-gradient(to right, rgba(92,92,92,0.19) 0%, rgba(92,92,92,0.18) 0%, rgba(255,255,255,0.1) 47%, rgba(255,255,255,0) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c5c5c', endColorstr='#ffffff', GradientType=1 );
+		}
+		#carousel1 .carousel-control.right:hover {
+			background: rgba(255,255,255,0);
+			background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 53%, rgba(92,92,92,0.18) 100%);
+			background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(53%, rgba(255,255,255,0.1)), color-stop(100%, rgba(92,92,92,0.18)));
+			background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 53%, rgba(92,92,92,0.18) 100%);
+			background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 53%, rgba(92,92,92,0.18) 100%);
+			background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 53%, rgba(92,92,92,0.18) 100%);
+			background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 53%, rgba(92,92,92,0.18) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#5c5c5c', GradientType=1 );
+		}
+		#carousel1 { height: 366px; border: 1px solid lightgrey; border-top: 0px; border-radius: 4px;}
+		#carousel1 a { opacity: 1; }
+		.carousel .carousel-indicators li { border: 1px solid darkgrey; }
+		.carousel .carousel-indicators .active { background-color: darkgrey }
+		.carousel .carousel-control .glyphicon { color: darkgrey; }
+		.carousel .carousel-control .glyphicon:hover { color: #6b6b6b; }
+		.btn { background-color: #7cb71b; color: white; }
+		.btn:hover { background-color: #6a9e16 }
+
+		.carousel-small .carousel-control.left, #carousel2 .carousel-control.left:hover { background: unset; width: 5%;}
+		.carousel-small .carousel-control.right, #carousel2 .carousel-control.right:hover { background: unset; width: 5%;}
+		.carousel-small .carousel-indicators { bottom: 0px; }
+
+		/* HeaderTop */
+		.headerTop { display: block; height: 60px; background-color: #23261e }
+		.logo { padding-left: 70px; display: inline-block; width: 268px; }
+		.login, .register, .cart { float: right; }
+		.login, .register { margin-top: 11px; font-size: 1.1em;}
+		.register { margin-left: 5px; color: #7cb71b; background-color: unset;}
+		.cart { width: unset; margin-right: 56px; }
+		.cartBtn { min-width: 135px; border: 0px; background-color: #7cb71b; color: white; padding-top: 5px; padding-bottom: 5px}
+		.cart-icon { display: block; font-size: 1.3em;}
+		.cart-info { font-size: 0.9em;}
+		.cart-dropdown { right: 0; left: unset; padding: 8px; min-width: 250px;}
+		.cartItem { display: flex; max-height: 80px; border-top: 1px solid lightgrey; padding-top: 5px; margin-bottom: 7px; }
+		.cartItem img { width: 50px; display: inline-block; vertical-align: top}
+		.cartItem-info { display: inline-block; padding-left: 6px; min-width: 176px;}
+		.cartItem-name { font-size: 1em; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; max-width: 280px;}
+		.cartItem-author { font-size: 0.8em; height: 38px; }
+		.cartItem-price { text-align: bottom; height: 80px;}
+		.cartItem-price > button { float: right; width: 80px; padding: 0px; border: none; background: white; }
+
+		/* Sidebar */
+		.category-list { margin-top: 10px; padding-left: 27px; }
+
+		.item { padding: 10px; }
+		.page { padding-right: 35px; }
+		.displayBuku { display: flex; width: 600px; border: 1px solid #ededed; margin: auto; padding: 20px }
+		.displayBuku img { display: inline-block; margin: auto; height: 260px; }
+		.book-detail { padding-left: 10px; display: inline-block; }
+		.book-name { font-weight: bold; font-size: 1.1em; color: #7cb71b; text-overflow: ellipsis; overflow: hidden; max-width: 378px; }
+		.book-author { font-size: 0.9em; color: grey; }
+		.book-desc { text-overflow: ellipsis; overflow: hidden; max-height: 156px; height: 156px; }
+		.book-owner { font-size: 0.9em; padding-top: 5px;}
+		.book-owner > span { color: blue; }
+		.book-price { display: flex; border: 1px solid lightgrey; padding: 5px; padding-left: 14px;}
+		.book-price.giveaway .harga { text-align: center;}
+		.book-price > .harga { font-size: 1.1em; flex: 3; padding-top: 5px; font-weight: bold }
+		.book-price > button { flex: 2; background-color: #7cb71b; font-weight: bold; font-size: 1.1em; color: white;}
+		.displayBuku.small { width: 278px; flex-flow: column }
+		.displayBuku.small .top { display: flex; }
+		.displayBuku.small img { height: 150px; }
+		.displayBuku.small .book-desc { height: 124px; }
+		.displayBuku.small .book-name { max-width: 126px; }
+		.displayBuku.small2 { border: 1px solid lightgrey; flex-flow: column; width: 250px; }
+		.displayBuku.small2 img { height: 195px; padding-bottom: 10px;}
+
+		.trade-display { border: 1px solid lightgrey; padding: 5px; width: 280px; margin: auto; }
+		.trade-display .judul { font-weight: bold; font-size: 1.1em; }
+		.trade-display .requester { font-size: 0.9em; }
+		.trade-display .requester span { color: blue; }
+		.trade-display .request, .trade-display .offer, .trade-display .judul { color: #7cb71b; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; max-width: 269px; }
+		.trade-display .request span, .trade-display .offer span { color: #333; }
+
+		.home-newbook { display: flex; flex-flow: column; }
+		.home-newbook li { list-style-type: none; display: inline; float: left; padding-right: 5px; padding-bottom: 5px;}
+		.home-newbook button { float: right; margin-right: 40px; }
+		.footer { background-color: #23261e; height: 150px; margin-top: 100px; }
