@@ -130,7 +130,7 @@
 								<div class="book-name">Finding Magic</div>
 								<div class="book-author">by Sally Quinn</div>
 								<div class="book-owner">Pemilik buku: <span>Tyas Yuni</span> - <span>Jakarta</span></div>
-								<div class="book-price"><span class="harga">Rp 25.000 / minggu</span></div>
+								<div class="book-price"><span class="harga">Rp 25.000 / minggu</span><button type="button" class="btn add-to-cart"><i class="glyphicon glyphicon-plus"></i><i class="glyphicon glyphicon-shopping-cart"></i></button></div>
 							</div>
 						</div>
 					</li>
@@ -141,7 +141,7 @@
 								<div class="book-name">The Diary of a Young Girl</div>
 								<div class="book-author">by Anne Frank</div>
 								<div class="book-owner">Pemilik buku: <span>Tyas Yuni</span> - <span>Jakarta</span></div>
-								<div class="book-price"><span class="harga">Rp 15.000 / minggu</span></div>
+								<div class="book-price"><span class="harga">Rp 15.000 / minggu</span><button type="button" class="btn add-to-cart"><i class="glyphicon glyphicon-plus"></i><i class="glyphicon glyphicon-shopping-cart"></i></button></div>
 							</div>
 						</div>
 					</li>
@@ -152,7 +152,7 @@
 								<div class="book-name">The Designer</div>
 								<div class="book-author">by Marius Gabriel</div>
 								<div class="book-owner">Pemilik buku: <span>Tyas Yuni</span> - <span>Jakarta</span></div>
-								<div class="book-price"><span class="harga">Rp 25.000 / minggu</span></div>
+								<div class="book-price"><span class="harga">Rp 25.000 / minggu</span><button type="button" class="btn add-to-cart"><i class="glyphicon glyphicon-plus"></i><i class="glyphicon glyphicon-shopping-cart"></i></button></div>
 							</div>
 						</div>
 					</li>
@@ -163,7 +163,7 @@
 								<div class="book-name">The Tiger's Daughter</div>
 								<div class="book-author">by K. Arsenault Rivera</div>
 								<div class="book-owner">Pemilik buku: <span>Tyas Yuni</span> - <span>Jakarta</span></div>
-								<div class="book-price"><span class="harga">Rp 25.000 / minggu</span></div>
+								<div class="book-price"><span class="harga">Rp 25.000 / minggu</span><button type="button" class="btn add-to-cart"><i class="glyphicon glyphicon-plus"></i><i class="glyphicon glyphicon-shopping-cart"></i></button></div>
 							</div>
 						</div>
 					</li>
@@ -174,7 +174,7 @@
 								<div class="book-name">The Adventures of Captain Underpants</div>
 								<div class="book-author">by Dav Pilkey</div>
 								<div class="book-owner">Pemilik buku: <span>Tyas Yuni</span> - <span>Jakarta</span></div>
-								<div class="book-price"><span class="harga">Rp 25.000 / minggu</span></div>
+								<div class="book-price"><span class="harga">Rp 25.000 / minggu</span><button type="button" class="btn add-to-cart"><i class="glyphicon glyphicon-plus"></i><i class="glyphicon glyphicon-shopping-cart"></i></button></div>
 							</div>
 						</div>
 					</li>

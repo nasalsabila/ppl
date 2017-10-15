@@ -102,16 +102,18 @@
 		.page { padding-right: 35px; }
 		.displayBuku { display: flex; width: 600px; border: 1px solid #ededed; margin: auto; padding: 20px }
 		.displayBuku img { display: inline-block; margin: auto; height: 260px; }
-		.book-detail { padding-left: 10px; display: inline-block; }
-		.book-name { font-weight: bold; font-size: 1.1em; color: #7cb71b; text-overflow: ellipsis; overflow: hidden; max-width: 378px; }
+		.book-detail {display: inline-block; }
+		.book-name { font-weight: bold; font-size: 1.1em; color: #7cb71b; text-overflow: ellipsis; overflow: hidden; max-width: 378px; max-height: 42px; }
 		.book-author { font-size: 0.9em; color: grey; }
 		.book-desc { text-overflow: ellipsis; overflow: hidden; max-height: 156px; height: 156px; }
 		.book-owner { font-size: 0.9em; padding-top: 5px;}
 		.book-owner > span { color: blue; }
-		.book-price { display: flex; border: 1px solid lightgrey; padding: 5px; padding-left: 14px;}
+		.book-price { display: flex; border: 1px solid lightgrey; min-height: 43px; padding: 5px; padding-top: 0px; font-size: 0.8em; text-align: center;}
 		.book-price.giveaway .harga { text-align: center;}
-		.book-price > .harga { font-size: 1.1em; flex: 3; padding-top: 5px; font-weight: bold }
+		.book-price > .harga { font-size: 1.1em; flex: 3; padding-top: 11px; font-weight: bold }
 		.book-price > button { flex: 2; background-color: #7cb71b; font-weight: bold; font-size: 1.1em; color: white;}
+		.displayBuku .book-detail { padding-left: 12px; }
+		.displayBuku button { padding: 0px; margin-top: 5px; font-size: 1.2em; }
 		.displayBuku.small { width: 278px; flex-flow: column }
 		.displayBuku.small .top { display: flex; }
 		.displayBuku.small img { height: 150px; }
@@ -119,6 +121,7 @@
 		.displayBuku.small .book-name { max-width: 126px; }
 		.displayBuku.small2 { border: 1px solid lightgrey; flex-flow: column; width: 250px; height: 350px;}
 		.displayBuku.small2 img { height: 195px; padding-bottom: 10px;}
+		.displayBuku.small2 button { height: 30px; margin-top: 6px; font-size: 1.2em; max-width: 74px; padding-top: 4px; }
 
 		.trade-display { border: 1px solid lightgrey; padding: 5px; width: 280px; margin: auto; }
 		.trade-display .judul { font-weight: bold; font-size: 1.1em; }
