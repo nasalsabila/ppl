@@ -68,9 +68,11 @@
 		/* HeaderTop */
 		.headerTop { display: block; height: 60px; background-color: #23261e }
 		.logo { padding-left: 70px; display: inline-block; width: 268px; }
-		.login, .register, .cart { float: right; }
-		.login, .register { margin-top: 11px; font-size: 1.1em;}
+		.login, .register, .cart, .userProfile { float: right; }
+		.login, .register, .userProfile { margin-top: 11px; font-size: 1.1em;}
 		.register { margin-left: 5px; color: #7cb71b; background-color: unset;}
+		.userProfile { margin-top: 7px; }
+		.userProfile .profpic { width: 32px; height: 32px; background-color: white; border-radius: 3px; }
 		.cart { width: unset; margin-right: 56px; }
 		.cartBtn { min-width: 135px; border: 0px; background-color: #7cb71b; color: white; padding-top: 5px; padding-bottom: 5px}
 		.cart-icon { display: block; font-size: 1.3em;}
@@ -115,7 +117,7 @@
 		.displayBuku.small img { height: 150px; }
 		.displayBuku.small .book-desc { height: 124px; }
 		.displayBuku.small .book-name { max-width: 126px; }
-		.displayBuku.small2 { border: 1px solid lightgrey; flex-flow: column; width: 250px; }
+		.displayBuku.small2 { border: 1px solid lightgrey; flex-flow: column; width: 250px; height: 350px;}
 		.displayBuku.small2 img { height: 195px; padding-bottom: 10px;}
 
 		.trade-display { border: 1px solid lightgrey; padding: 5px; width: 280px; margin: auto; }
@@ -125,9 +127,42 @@
 		.trade-display .request, .trade-display .offer, .trade-display .judul { color: #7cb71b; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; max-width: 269px; }
 		.trade-display .request span, .trade-display .offer span { color: #333; }
 
-		.home-newbook { display: flex; flex-flow: column; }
-		.home-newbook li { list-style-type: none; display: inline; float: left; padding-right: 5px; padding-bottom: 5px;}
+		.grid-item { display: inline-block; }
+		.grid-item li { list-style-type: none; display: inline; float: left; padding-right: 5px; padding-bottom: 5px;}
+		.home-newbook { display: flex; flex-flow: column; width: 100%; }
 		.home-newbook button { float: right; margin-right: 40px; }
+
+		/* Catalog Page */
+		.pilihGenre { width: 200px; padding-top: 5px; padding-left: 30px; float: left;  }
+		.bukuSearch { display: inline-block; float: right; max-width: 400px; padding-right: 64px;}
+		.booksWrapper { padding-top: 10px; width: 100%; }
+		.booksWrapper li { padding-right: 34px; padding-bottom: 25px; }
+		.pagination-wrapper { padding: 10px; }
+		.pagination-wrapper .pagination { display: block; margin: auto; margin-top: 20px; width: 200px; height: 40px; }
+
+
+		/* Quote Page */
+		.quoteSearch { padding: 10px; max-width: 500px; float: right; padding-right: 72px; }
+		.displayQuote { padding: 15px; border: 1px solid lightgrey; flex-flow: column; border-radius: 2px; margin: 5px; }
+		.displayQuote .quote { margin-bottom: 10px; }
+		.displayQuote .quote .text { max-width: 280px; display: block; word-wrap: break-word; font-size: 1.2em; font-weight: bold; }
+
+		/* FAQ Page */
+		.faqWrapper { padding-top: 30px; height: -webkit-fill-available }
+		.faqPanel { border: unset; box-shadow: unset; margin-top: 20px; }
+		.faqPanel button { width: 100%; border: unset; display: flex;}
+		.faqPanel button:focus { border: unset; outline: none; }
+		.faqPanel .panel-body, .faqPanel .panel-heading { background-color: #ededed; }
+		.faqPanel .panel-heading { padding: 0px; }
+		.faqPanel .left { height: 80px; width: 95px; background-color: #23261e; }
+		.faqPanel .left span { font-size: 2em; margin-top: 23px; color: white; }
+		.faqPanel .right { height: 80px; flex: 1; }
+		.faqPanel .question { font-size: 1.6em; font-weight: bold; padding-left: 15px; display: table-cell; vertical-align: middle; height: inherit; }
+		.faqPanel .answer {  }
+		.faqPanel .panel-collapse { margin-top: -2px; }
+		.faqPanel .panel-body { padding: 0px; display: flex; }
+		.faqPanel .panel-body .right { padding: 2px 30px 25px 16px; height: auto; }
+		.faqPanel .panel-body .left { height: auto; }
 
 		.click:hover { cursor: pointer; text-decoration: underline; }
 		.footer { background-color: #23261e; height: 150px; margin-top: 100px; }

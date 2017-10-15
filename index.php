@@ -53,8 +53,16 @@
 					</ul>
 				</div>
 			</div>
-			<button class="btn register">Register</button>
-			<button class="btn login">Login</button>
+			<!-- <button class="btn register">Register</button>
+			<button class="btn login">Login</button> -->
+			<button class="btn userProfile">
+				<table>
+					<tr>
+						<td class="profpic"></td>
+						<td class="nama" style="padding-left: 10px">NamaUser</td>
+					</tr>
+				</table>
+			</button>
 		</div>
 	</div>
 	<nav class="navbar navbar-default">
@@ -68,10 +76,12 @@
 			</div>
 			<div class="collapse navbar-collapse" id="mainNavbar">
 				<ul class="nav navbar-nav">
-			    	<li class="active"><a href="#">Home</a></li>
-			    	<li><a href="#">Catalog</a></li>
-			    	<li><a href="#">My Profile</a></li>
-			    	<li><a href="#">About Us</a></li>
+			    	<li class="active"><a href="/ruangbaca">Home</a></li>
+			    	<li><a href="/ruangbaca/p/catalog">Catalog</a></li>
+			    	<li><a href="/ruangbaca/p/quotes">Quotes</a></li>
+			    	<li><a href="#">Reading Journal</a></li>
+			    	<li><a href="#">RuBa Community</a></li>
+			    	<li><a href="/ruangbaca/p/faq">FAQ</a></li>
 				</ul>
 				<form class="navbar-form navbar-right">
 				    <div class="input-group">
@@ -89,7 +99,7 @@
 			<div class="sideBar" style="padding: 0px 20px;">
 				<div class="userReviews">
 					<div class="sectionTitle">
-						<label>REVIEW TERBARU</label>
+						<label>READING JOURNAL</label>
 					</div>
 					<div class="home-reviews-wrapper">
 						<div class="home-reviews">
@@ -317,7 +327,7 @@
 						<label>Terbaru</label>
 					</div>
 					<div class="home-newbook">
-						<div class="top">
+						<div class="top grid-item">
 							<ul>
 								<li>
 									<div class="displayBuku small2">
