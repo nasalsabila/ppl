@@ -112,55 +112,50 @@
 					<li>
 						<div class="displayQuote">
 							<div class="quote">
-								<span class="text">"Hidup tanpa cinta bagai taman tak berbunga"</span>
+								<i class="fa fa-quote-left" aria-hidden="true"></i> <span class="text">"Hidup tanpa cinta bagai taman tak berbunga"</span>
 							</div>
 							<div class="sumber">
-								<span style="font-size: 1.2em">- </span>
-								Rhoma Irama
+								<i class="glyphicon glyphicon-minus"></i> <span>Rhoma Irama</span>
 							</div>
 						</div>
 					</li>
 					<li>
 						<div class="displayQuote">
 							<div class="quote">
-								<span class="text">"Hidup tanpa cinta bagai taman tak berbunga"</span>
+								<i class="fa fa-quote-left" aria-hidden="true"></i> <span class="text">Be yourself; everyone else is already taken.</span>
 							</div>
 							<div class="sumber">
-								<span style="font-size: 1.2em">- </span>
-								Rhoma Irama
+								<i class="glyphicon glyphicon-minus"></i> <span>Oscar Wilde</span>
 							</div>
 						</div>
 					</li>
 					<li>
 						<div class="displayQuote">
 							<div class="quote">
-								<span class="text">"Hidup tanpa cinta bagai taman tak berbunga"</span>
+								<i class="fa fa-quote-left" aria-hidden="true"></i> <span class="text">Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.</span>
 							</div>
 							<div class="sumber">
-								<span style="font-size: 1.2em">- </span>
-								Rhoma Irama
+								<i class="glyphicon glyphicon-minus"></i> <span>Albert Einstein</span>
 							</div>
 						</div>
 					</li>
 					<li>
 						<div class="displayQuote">
 							<div class="quote">
-								<span class="text">"Hidup tanpa cinta bagai taman tak berbunga"</span>
+								<i class="fa fa-quote-left" aria-hidden="true"></i> <span class="text">Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.</span>
 							</div>
 							<div class="sumber">
-								<span style="font-size: 1.2em">- </span>
-								Rhoma Irama
+								<i class="glyphicon glyphicon-minus"></i> <span>Bernard M. Baruch</span>
 							</div>
 						</div>
 					</li>
 					<li>
 						<div class="displayQuote">
 							<div class="quote">
-								<span class="text">"Hidup tanpa cinta bagai taman tak berbunga"</span>
+								<i class="fa fa-quote-left" aria-hidden="true"></i> <span class="text">A room without books is like a body without a soul.</span>
 							</div>
 							<div class="sumber">
-								<span style="font-size: 1.2em">- </span>
-								Rhoma Irama
+								<i class="glyphicon glyphicon-minus"></i> <span>Marcus Tullius Cicero</span>
 							</div>
 						</div>
 					</li>

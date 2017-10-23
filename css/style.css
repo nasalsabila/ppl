@@ -114,21 +114,26 @@
 		.book-price > button { flex: 2; background-color: #7cb71b; font-weight: bold; font-size: 1.1em; color: white;}
 		.displayBuku .book-detail { padding-left: 12px; }
 		.displayBuku button { padding: 0px; margin-top: 5px; font-size: 1.2em; }
-		.displayBuku.small { width: 278px; flex-flow: column }
+		.displayBuku.small { width: 90%; flex-flow: column }
 		.displayBuku.small .top { display: flex; }
-		.displayBuku.small img { height: 150px; }
-		.displayBuku.small .book-desc { height: 124px; }
+		.displayBuku.small img { height: 210px; }
+		.displayBuku.small .book-desc { height: 190px; max-height: 220px; }
 		.displayBuku.small .book-name { max-width: 126px; }
 		.displayBuku.small2 { border: 1px solid lightgrey; flex-flow: column; width: 250px; height: 350px;}
 		.displayBuku.small2 img { height: 195px; padding-bottom: 10px;}
 		.displayBuku.small2 button { height: 30px; margin-top: 6px; font-size: 1.2em; max-width: 74px; padding-top: 4px; }
 
-		.trade-display { border: 1px solid lightgrey; padding: 5px; width: 280px; margin: auto; }
+		.trade-display { border: 1px solid lightgrey; padding: 5px; width: 80%; margin: auto; }
 		.trade-display .judul { font-weight: bold; font-size: 1.1em; }
 		.trade-display .requester { font-size: 0.9em; }
 		.trade-display .requester span { color: blue; }
-		.trade-display .request, .trade-display .offer, .trade-display .judul { color: #7cb71b; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; max-width: 269px; }
+		.trade-display .request, .trade-display .offer, .trade-display .judul { color: #7cb71b; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; max-width: 100%; }
 		.trade-display .request span, .trade-display .offer span { color: #333; }
+
+		.quote-display { border: 1px solid lightgrey; border-radius: 2px; padding: 5px 10px; width: 80%; margin: auto; }
+		.quote-display .quote { font-size: 1.5em; font-family: "Merriweather", "Georgia", serif; }
+		.quote-display .source { font-weight: bold; }
+		.quote-display .poster { text-align: right;}
 
 		.grid-item { display: inline-block; }
 		.grid-item li { list-style-type: none; display: inline; float: left; padding-right: 5px; padding-bottom: 5px;}
@@ -169,8 +174,8 @@
 		/* Quote Page */
 		.quoteSearch { padding: 10px; max-width: 500px; float: right; padding-right: 72px; }
 		.displayQuote { padding: 15px; border: 1px solid lightgrey; flex-flow: column; border-radius: 2px; margin: 5px; }
-		.displayQuote .quote { margin-bottom: 10px; }
-		.displayQuote .quote .text { max-width: 280px; display: block; word-wrap: break-word; font-size: 1.2em; font-weight: bold; }
+		.displayQuote .quote { margin-bottom: 10px; font-size: 1.5em; font-family: "Merriweather", "Georgia", serif;}
+		.displayQuote .quote .text { max-width: 280px; display: inline-block; word-wrap: break-word; vertical-align: top;}
 
 		/* FAQ Page */
 		.faqWrapper { padding-top: 30px; height: -webkit-fill-available }

@@ -319,6 +319,36 @@
 					<div class="sectionTitle2">
 						<label>Quotes</label>
 					</div>
+					<div id="carousel4" class="carousel slide carousel-small" data-ride="carousel">
+						<ol class="carousel-indicators" style="bottom: -23px">
+							<li data-target="#carousel4" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel4" data-slide-to="1"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="quote-display">
+									<div class="quote"><i class="fa fa-quote-left" aria-hidden="true"></i> <span>Don't cry because it's over, smile because it happened.</span></div>
+									<div class="source"><i class="glyphicon glyphicon-minus"></i> <span>Dr. Seuss</span></div>
+									<div class="poster">Tyas</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="quote-display">
+									<div class="quote"><i class="fa fa-quote-left" aria-hidden="true"></i> <span>So many books, so little time.</span></div>
+									<div class="source"><i class="glyphicon glyphicon-minus"></i> <span>Frank Zappa</span></div>
+									<div class="poster">Tyas</div>
+								</div>
+							</div>
+						</div>
+						<a class="left carousel-control" href="#carousel4" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" style="top: 42%"></span>
+			    			<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel4" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" style="top: 42%"></span>
+			    			<span class="sr-only">Next</span>
+						</a>
+					</div>
 				</div>
 			</div>
 			<div class="row">
