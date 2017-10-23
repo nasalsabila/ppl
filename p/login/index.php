@@ -63,7 +63,6 @@
 					</tr>
 				</table>
 			</button>
-
 		</div>
 	</div>
 	<nav class="navbar navbar-default">
@@ -78,11 +77,11 @@
 			<div class="collapse navbar-collapse" id="mainNavbar">
 				<ul class="nav navbar-nav">
 			    	<li><a href="/ruangbaca">Home</a></li>
-			    	<li class="active"><a href="/ruangbaca/p/catalog">Catalog</a></li>
+			    	<li><a href="/ruangbaca/p/catalog">Catalog</a></li>
 			    	<li><a href="/ruangbaca/p/quotes">Quotes</a></li>
 			    	<li><a href="#">Reading Journal</a></li>
 			    	<li><a href="#">RuBa Community</a></li>
-			    	<li><a href="/ruangbaca/p/faq">FAQ</a></li>
+			    	<li class="active"><a href="/ruangbaca/p/faq">FAQ</a></li>
 				</ul>
 				<form class="navbar-form navbar-right">
 				    <div class="input-group">
@@ -95,64 +94,67 @@
 			</div>
 		</div>
 	</nav>
-	<div class="mainpage" style="max-width: 1000px; margin: auto; margin-bottom: 60px; height: -webkit-fill-available">
-		<div class="row pageBukuHeader">
-			<div class="col-md-12">
-				<span class="judul">The Diary of a Young Girl</span>
+	<div class="mainpage row" style="padding: 0px 50px">
+		<div class="col-md-12" style="margin-bottom: 60px;">
+			<div class="sectionTitle">
+				<label>FAQ</label>
 			</div>
-		</div>
-		<div class="row pageBuku" style="">
-			<div class="col-md-6 left" style="">
-				<div class="row">
-					<div class="col-md-5 fotoBuku">
-						<img src="../../images/buku-9.JPG" align="center">
-					</div>
-					<div class="col-md-7 detailBuku">
-						<span>Detail Buku</span>
-						<table>
-							<tr>
-								<td style="font-weight: bold;">Penulis</td>
-								<td>Anne Frank</td>
-							</tr>
-							<tr>
-								<td style="font-weight: bold;">Kategori</td>
-								<td>Sejarah</td>
-							</tr>
-							<tr>
-								<td style="font-weight: bold;">Bahasa</td>
-								<td>Inggris</td>
-							</tr>
-							<tr>
-								<td style="font-weight: bold;">Pemilik</td>
-								<td>Tyas Yuni</td>
-							</tr>
-							<tr>
-								<td style="font-weight: bold;">Harga</td>
-								<td>Rp 25000 / minggu</td>
-							</tr>
-						</table>
+			<div class="faqWrapper">
+				<div class="faqPanel panel panel-default">
+					<button class="panel-heading" data-toggle="collapse" data-target="#faq-1">
+						<div class="left">
+							<span class="glyphicon glyphicon-question-sign"></span>
+						</div>
+						<div class="right">
+							<span class="question">QUESTION 1</span>
+						</div>
+					</button>
+					<div id="faq-1" class="panel-collapse collapse">
+						<div class="panel-body">
+							<div class="left">
+							</div>
+							<div class="right">
+								<span class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget magna a lacus suscipit faucibus in eu libero. Maecenas quis ullamcorper elit. Duis pretium convallis massa id maximus. Aliquam id ultrices enim. Proin pharetra, elit eu accumsan facilisis, quam dolor blandit leo, ut vehicula sapien lacus in arcu. Aliquam consequat, purus a sagittis venenatis, dolor dui vulputate dolor, sed ultricies ex turpis sit amet sapien. Donec id turpis quis augue scelerisque scelerisque. </span>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-12 pinjam">
-						<button class="btn">Tambah Ke Keranjang</button>
+				<div class="faqPanel panel panel-default">
+					<button class="panel-heading" data-toggle="collapse" data-target="#faq-2">
+						<div class="left">
+							<span class="glyphicon glyphicon-question-sign"></span>
+						</div>
+						<div class="right">
+							<span class="question">QUESTION 2</span>
+						</div>
+					</button>
+					<div id="faq-2" class="panel-collapse collapse">
+						<div class="panel-body">
+							<div class="left">
+							</div>
+							<div class="right">
+								<span class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget magna a lacus suscipit faucibus in eu libero. Maecenas quis ullamcorper elit. Duis pretium convallis massa id maximus. Aliquam id ultrices enim. Proin pharetra, elit eu accumsan facilisis, quam dolor blandit leo, ut vehicula sapien lacus in arcu. Aliquam consequat, purus a sagittis venenatis, dolor dui vulputate dolor, sed ultricies ex turpis sit amet sapien. Donec id turpis quis augue scelerisque scelerisque. </span>
+							</div>
+						</div>
 					</div>
 				</div>
-				
-			</div>
-			<div class="col-md-6 right" style="">
-				<div class="row">
-					<div class="col-md-12 sinopsis-header">
-						<span class="header">Deskripsi</span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 sinopsis-body">
-						<span class="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada urna ut diam vestibulum, ac vehicula sem blandit. Fusce laoreet felis a luctus rutrum. Praesent non purus arcu. Aenean semper, purus vitae lacinia ultricies, dolor sem rutrum elit, sit amet porttitor ante urna eget odio. Sed quis pellentesque metus, sit amet consequat magna. Ut aliquam eu arcu eu mollis. Donec laoreet sem odio. Fusce iaculis enim in sem pretium, nec aliquet nibh posuere. Fusce id lacinia orci. Mauris non dignissim tortor, quis porttitor lorem. Nunc vel turpis nec urna lobortis dictum. Ut lobortis nulla a sapien ullamcorper vulputate. Sed maximus efficitur nibh sit amet euismod. Phasellus dapibus lacus eleifend purus porta ultrices. Fusce orci augue, scelerisque quis turpis et, fermentum fringilla quam. Maecenas blandit rhoncus ipsum ut semper.</span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 starReview">
+				<div class="faqPanel panel panel-default">
+					<button class="panel-heading" data-toggle="collapse" data-target="#faq-3">
+						<div class="left">
+							<span class="glyphicon glyphicon-question-sign"></span>
+						</div>
+						<div class="right">
+							<span class="question">QUESTION 3</span>
+						</div>
+					</button>
+					<div id="faq-3" class="panel-collapse collapse">
+						<div class="panel-body">
+							<div class="left">
+							</div>
+							<div class="right">
+								<span class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget magna a lacus suscipit faucibus in eu libero. Maecenas quis ullamcorper elit. Duis pretium convallis massa id maximus. Aliquam id ultrices enim. Proin pharetra, elit eu accumsan facilisis, quam dolor blandit leo, ut vehicula sapien lacus in arcu. Aliquam consequat, purus a sagittis venenatis, dolor dui vulputate dolor, sed ultricies ex turpis sit amet sapien. Donec id turpis quis augue scelerisque scelerisque. </span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
