@@ -19,24 +19,44 @@
 			<img src="../../images/logo2.PNG" width="300">
 		</div>
 		<div class="loginregisterContainer">
-			<p>Login</p>
-			<form class="loginregister-form" id="login-form">
-				<fieldset id="login">
+			<p>Daftar</p>
+			<form class="loginregister-form" id="register-form">
+				<fieldset id="register">
 					<ul>
-						<label>E-mail</label>
+						<label>Nama Lengkap</label>
 						<li>
-							<input type="email" name="email">
+							<input type="text" name="full-name">
+						</li>
+						<label>Username</label>
+						<li>
+							<input type="text" name="user-name">
 						</li>
 						<label>Password</label>
 						<li>
 							<input type="password" name="password">
 						</li>
-						<button class="btn loginregister-btn">Masuk</button>
+						<label>E-mail</label>
+						<li>
+							<input type="email" name="email">
+						</li>
+						<label>Kota</label>
+						<li>
+							<input type="text" name="kota">
+						</li>
+						<label>Alamat</label>
+						<li>
+							<input type="text" name="alamat">
+						</li>
+						<label>No Handphone</label>
+						<li>
+							<input type="tel" name="no-hp">
+						</li>
+						<button class="btn loginregister-btn">Daftar Akun</button>
 					</ul>
 				</fieldset>
 			</form>
 			<a href="" style="width: fit-content; display: inline-block;"><span class="glyphicon glyphicon-chevron-left"></span>Kembali</a>
-			<a href="" style="width: fit-content; display: inline-block; float: right;">Belum punya account</a>
+			<a href="" style="width: fit-content; display: inline-block; float: right;">Sudah punya account</a>
 		</div>
 	</div>
 </div>
