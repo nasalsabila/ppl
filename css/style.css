@@ -7,6 +7,7 @@
 		.backgroundHeader { background-color: #23261e; height: 70px; border-top: 10px solid #7cb71b; width: 100%; position: absolute; top: 0px; z-index: -1; }
 		.sectionTitle { margin-top: 25px; border-bottom: 2px solid #7cb71b; padding: 5px 5px 0px 8px; font-size: 1.3em; }
 		.sectionTitle2 { font-weight: bold; margin: 25px 0px 10px; border-bottom: 2px solid #23261e; padding: 5px 5px 0px 8px; font-size: 1.3em; }
+		.sectionTitle3 { border-bottom: 2px solid #7cb71b; font-size: 1.1em; font-weight: bold; margin: 25px 10px 10px 10px; }
 		.navbar-default { background-color: white; border-radius: 0px; padding: 0px 40px;}
 		.navbar-default .navbar-nav > .active > a { background-color: #ededed; border-bottom: 3px solid #7cb71b }
 		.navbar-default .navbar-nav > li > a:hover { background-color: #ededed;}
@@ -60,6 +61,8 @@
 		.btn:hover { background-color: #6a9e16 }
 		a { color: #7cb71b; }
 		a:hover { color: #638925; }
+		.float-right { float: right; }
+		.block { display: block; }
 
 		.carousel-small .carousel-control.left, #carousel2 .carousel-control.left:hover { background: unset; width: 5%;}
 		.carousel-small .carousel-control.right, #carousel2 .carousel-control.right:hover { background: unset; width: 5%;}
@@ -174,7 +177,7 @@
 		/* Quote Page */
 		.quoteSearch { padding: 10px; max-width: 500px; float: right; padding-right: 72px; }
 		.displayQuote { padding: 15px; border: 1px solid lightgrey; flex-flow: column; border-radius: 2px; margin: 5px; }
-		.displayQuote .quote { margin-bottom: 10px; font-size: 1.5em; font-family: "Merriweather", "Georgia", serif;}
+		.displayQuote .quote { margin-bottom: 10px; font-size: 1.2em; font-family: "Merriweather", "Georgia", serif;}
 		.displayQuote .quote .text { max-width: 280px; display: inline-block; word-wrap: break-word; vertical-align: top;}
 
 		/* FAQ Page */
@@ -193,6 +196,31 @@
 		.faqPanel .panel-body { padding: 0px; display: flex; }
 		.faqPanel .panel-body .right { padding: 2px 30px 25px 16px; height: auto; }
 		.faqPanel .panel-body .left { height: auto; }
+
+		/* Profile Page */
+		.profile-sidebar { float: left; display: block; min-height: 500px; max-width: 200px; margin-top: 10px; padding: 0; border-radius: 3px; border: 1px solid #e0e0e0; }
+		.profile-mainpage { float: left; display: block; border: 0; padding: 0; margin: 10px 0px 40px 20px; }
+		.profile-sidebar ul { list-style-type: none; padding: 0; } 
+		.profile-sidebar li { padding: 7px 10px; }
+		.profile-sidebar li:hover { background-color: lightgrey; cursor: pointer; }
+		.profile-sidebar li.active { background-color: lightgrey; }
+		.tambah-buku, .tambah-quote { padding: 30px 40px; margin-top: 10px; border-radius: 5px; border: 1px solid #e0e0e0;}
+		.control-label { text-align: left!important; font-weight: bold; }
+		.form-control { margin-right: 20px; }
+		.profile-content .grid-item { margin-top: 30px; }
+
+		/* Checkout Page */
+		.order-detail-table { line-height: 20px; width: 100%; position: relative; word-break: break-all; border-spacing: 0; border: 1px solid #ddd; margin: 10px 0 15px; border-collapse: separate; border-left: 0; border-radius: 2px;}
+		.order-detail-table td, .order-detail-table th { border-left: 1px solid #ddd; padding: 7px; }
+		.order-detail-table td { vertical-align: top; border-top: 1px solid #ddd;}
+		.order-detail-table th { border-top: 3px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px; font-weight: bold; }
+		.order-detail-table .cart-item span { float: left; }
+		.order-detail-table .item-operation { display: block; margin: 15px auto; width: 85px;}
+		.order-detail-table .item-name { font-size: 1.2em; font-weight: bold; }
+		.order-detail-table .receiver-address { font-size: 0.9em; }
+		.total-payment-container { border: 2px solid #ddd; border-radius: 3px; padding: 10px; }
+		.container-total { width: fit-content; display: block; margin: auto; margin-right: 10px; text-align: center; padding-bottom: 6px; }
+		.bottom-buttons { border-top: 1px solid #ddd; padding-top: 13px; }
 
 		.click:hover { cursor: pointer; text-decoration: underline; }
 		.footer { background-color: #23261e; height: 150px; margin-top: 100px; }
